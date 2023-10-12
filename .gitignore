@@ -128,4 +128,12 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-.idea
+.DS_Store
+classes/*
+.settings/
+.classpath
+.project
+
+*.iml
+.idea/
+work/
