@@ -137,3 +137,5 @@ classes/*
 *.iml
 .idea/
 work/
+
+**/.idea
