@@ -6,7 +6,7 @@ class errors(Enum):
 
     # ------------------ 1xx: Login, Authorized ------------------
 
-    # UNAUTHORIZED = {'errorCode': 100, 'httpCode': 401, 'desc': 'Unauthorized'}
+    UNAUTHORIZED = {'errorCode': 100, 'httpCode': 401, 'desc': 'Unauthorized'}
     # FORBIDDEN = {'errorCode': 101, 'httpCode': 403, 'desc': "Forbidden"}
     # WRONG_PASSWORD = {'errorCode': 102, 'httpCode': 403, 'desc': 'Wrong user or password'}
     #
