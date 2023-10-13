@@ -1,6 +1,3 @@
-from Errors import errors
-
-
 def getApiException(error):
     self = ApiException(error['errorCode'], error['httpCode'], error['desc'])
     return self
