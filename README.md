@@ -37,7 +37,7 @@
 作者电脑上的环境配置为python3.9.13
 
 ### 环境要求
-- python 3.6—3.10版本
+- python 3.6-3.10版本
 - Flask 
 - sqlite
 
