@@ -8,7 +8,7 @@ info:
 
 servers:
   - url: 'http://localhost:11451/api'
-    description: Local server
+    description: Local servers
 
 security:
   - sessionAuth: [ ]
