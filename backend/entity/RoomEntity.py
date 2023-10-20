@@ -1,4 +1,4 @@
-from main import db
+from backend.main import db
 
 
 class RoomEntity(db.Model):
