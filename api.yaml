@@ -8,7 +8,7 @@ info:
 
 servers:
   - url: 'http://localhost:11451/api'
-    description: Local servers
+    description: Local server
 
 security:
   - sessionAuth: [ ]
@@ -155,26 +155,7 @@ paths:
         content:
           application/json:
             schema:
-              type: object
-              properties:
-                room:
-                  type: string
-                  example: 2-233
-                temperature:
-                  type: integer
-                  example: admin
-                wind_speed:
-                  type: integer
-                  example: admin
-                mood:
-                  type: string
-                  example: cold
-                sweep:
-                  type: boolean
-                  example: true
-                is_on:
-                  type: boolean
-                  example: true
+                $ref: '#/components/schemas/record_entry'
       responses:
         '200':
           description: Record successfully
@@ -469,7 +450,7 @@ paths:
               schema:
                 type: object
                 properties:
-                  room:
+                  room: 
                     type: string
                     example: 2-233 # same as the input
                   report:
